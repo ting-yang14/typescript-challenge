@@ -20,5 +20,4 @@ export function filterByProperty<T, K extends keyof T>(
 
 // 寫法推薦
 // export function filterByProperty<T, K extends keyof T>(array: T[], property: K, value: T[K]): T[] {
-
 // }

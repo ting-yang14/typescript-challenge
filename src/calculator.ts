@@ -45,6 +45,5 @@ export function divide(a: number, b: number): number {
  * @returns 兩個數字的和，但不超過 100。
  */
 export function add100(a: number, b: number): number {
-  const sum = a + b;
-  return sum > 100 ? 100 : sum;
+  return Math.min(a + b, 100);
 }
